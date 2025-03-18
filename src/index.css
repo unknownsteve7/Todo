@@ -1,0 +1,70 @@
+.todo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 500px;
+  border-radius: 5px;
+  border: 0.1px solid black;
+  background-color: hsla(30, 43%, 39%, 0.436);
+  padding: 10px;
+}
+
+.todo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.add-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+
+}
+
+.add-button {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  border: 1px solid hsl(0, 0%, 0%);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.add-button:hover {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 0%);
+  margin: 10px;
+}
+
+.delete-button {
+  background-color: rgba(221, 29, 29, 0.771);
+  color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 0%);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+.update-button {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  border: 1px solid hsl(0, 0%, 0%);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
